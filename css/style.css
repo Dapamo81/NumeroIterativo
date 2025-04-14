@@ -3,4 +3,61 @@
     padding: 0px;
 }
 
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    text-align: center;
+    padding: 40px;
+    color: #333;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+  }
+
+  .jugador {
+    background-color: #ffffffcc;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    width: 200px;
+  }
+
+  .jugador h2 {
+    margin-bottom: 10px;
+  }
+
+  .resultado {
+    font-size: 2em;
+    margin: 20px 0;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  button:hover {
+    background-color: #388e3c;
+  }
+
+  #ganador {
+    font-size: 1.5em;
+    margin-top: 30px;
+    font-weight: bold;
+  }
 
