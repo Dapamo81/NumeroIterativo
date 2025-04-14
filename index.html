@@ -23,6 +23,25 @@
         <button class="btn" onclick="adivinaNumero()">Adivina</button>
         <p id="resultado"></p>
     </section>
+    <section>
+        <h1>Lanzar los Dados</h1>
+
+        <div class="contenedor">
+          <div class="jugador">
+            <h2>PLAYER 1</h2>
+            <div class="resultado" id="resultado1">🎲</div>
+            <button onclick="lanzarDado(1)">Lanzar dado</button>
+          </div>
+      
+          <div class="jugador">
+            <h2>PLAYER 2</h2>
+            <div class="resultado" id="resultado2">🎲</div>
+            <button onclick="lanzarDado(2)">Lanzar dado</button>
+          </div>
+        </div>
+      
+        <div id="ganador"></div>
+    </section>
     <footer>
      
     </footer>
